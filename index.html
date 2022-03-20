@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گیمینگ ابری پرانیکس</title>
+    <!-- <link rel="stylesheet" type="text/css" href="main.css" media=”screen” /> -->
+    <style>
+        body{
+            margin: 0;
+        
+        }
+        .navBar{
+            list-style-type: none;
+            overflow: hidden;
+            background-color: rgb(75, 71, 71); 
+            
+        }
+        .navBar li{
+            display: inline-block;
+            float: right;
+            margin: 25px;
+            position: relative;
+        }   
+        .navBar a{
+            text-decoration: none;
+        }
+        body{
+
+            background-color: rgb(0, 0, 0);
+        }
+        #logo {
+            height: 35px;
+            width: 160px;
+        }
+        #logoInNavBar{
+            margin: 10px;
+            float: left;    
+            padding-left: 3cm;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+        }
+        .navBarLinks{
+            color: white;
+        }
+        span {
+            color: white;
+        }
+        h1 , p{
+            text-align: right;
+            margin: 3cm;
+        }
+        .intro{
+         
+            background-image: url('/Users/sadeghofoghi/Desktop/peranix site design by me/background page 1.jpeg') ;
+            background-repeat: no-repeat;
+            margin-left: 2cm;
+            display: block;
+            margin-bottom: 7cm;
+          
+        }
+        .loginButton{
+            font-size: xx-large;
+            border: 0.5cm;
+            margin: 1cm;
+            background-color: red;
+            padding: 0.3cm;
+        }
+        .navBar ul {
+            margin-top: 0px;
+            margin-right: 7cm;
+            list-style: none;
+        }
+        .navBar .navBarLinks:hover {
+            color: red;
+        }
+        .navBar .navBarLinks::before{
+            content: '';
+            display: block;
+            height: 1px;
+            background-color: red;
+            position: absolute;
+            top: 20px;
+            width: 0%;
+        }
+        .navBar .navBarLinks:hover::before{
+            width: 100%;
+        }
+        h2{
+            text-align: center;
+        }
+        hr{
+            width:30%;
+            margin-top: 1cm;    
+            border-color: red;
+        }
+        .pes21photo{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+        }
+        #signInButtonInNavBar{
+            background-color: red;
+            color: white;
+    
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navBar">
+            <a id="logoInNavBar"  href="#main page" ><img id="logo" src="/Users/sadeghofoghi/Desktop/peranix site design by me/peranix logo.png" alt="peranix icon"> </a>
+            <!-- <a style=" color: white; float: right; margin-top: 25px; margin-right: 40px; background-color: red;"   href="#register or sign in form" >  ورود یا  ثبت نام </a> -->
+            <ul>  
+                <li> <a id="signInButtonInNavBar" href="#register or sign in form" >  ورود یا  ثبت نام </a></li>
+                <li> <a style="color: red;" class="navBarLinks" href="#main page">  صفحه اصلی </a></li>
+                <li> <a class="navBarLinks" href="#internet speed test">  تست سرعت اینترنت </a></li>
+                <li> <a class="navBarLinks" href="#common questions"> سوالات متداول</a></li>
+                <li> <a class="navBarLinks" href="#about us"> درباره ما</a></li>
+                <li> <a class="navBarLinks" href="#call us"> تماس با ما</a></li>
+            </ul>
+        </div>
+    </header>
+    <div >
+        <span class="intro">
+            <h1> رو ابرا بازی کن</h1>
+            <p>  هر جایی و با هر دستگاهی  <br> که بتونی باهاش به اینترنت وصل شی <br> بازی های روز دنیا رو با دوستات بازی کن </p>    
+            <a class="loginButton" href="sign up"> ثبت نام</a>
+            <a style="background-color: white;" class="loginButton" href="login"> ورود</a>        
+        </span>
+    <div>
+        <span>  
+            <h2>   بازی کنی ؟ PES 21 الان دوست داری با همین مرورگرت  <hr></h2>
+
+        </span>
+        <img class="pes21photo" src="/Users/sadeghofoghi/Desktop/peranix site design by me/pes 21 background.jpeg" alt="pes 21 photo">
+    </div>
+
+
+
+</body>
+</html>
