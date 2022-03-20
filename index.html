@@ -15,12 +15,13 @@
             list-style-type: none;
             overflow: hidden;
             background-color: rgb(75, 71, 71); 
-            
+            /* margin-bottom: 0.3cm; */
         }
+
         .navBar li{
             display: inline-block;
             float: right;
-            margin: 25px;
+            margin: 30px;
             position: relative;
         }   
         .navBar a{
@@ -52,11 +53,15 @@
             text-align: right;
             margin: 3cm;
         }
+        h1{
+            font-size: 60px;
+        }
         .intro{
          
             background-image: url('/Users/sadeghofoghi/Desktop/peranix site design by me/background page 1.jpeg') ;
             background-repeat: no-repeat;
-            margin-left: 2cm;
+            background-size: 100%;
+            margin-left: 2.5cm;
             display: block;
             margin-bottom: 7cm;
           
@@ -67,6 +72,7 @@
             margin: 1cm;
             background-color: red;
             padding: 0.3cm;
+
         }
         .navBar ul {
             margin-top: 0px;
@@ -103,9 +109,34 @@
             width: 70%;
         }
         #signInButtonInNavBar{
+            color: white; 
+            float: right; 
+            /* margin-top: 25px; */
+            margin-right: 40px; 
+            background-color: red;
+            padding:30px; 
+            padding-left: 40px;
+            padding-right: 40px;
+
+        }
+        #loginButton{
+            background-color: white;
+            color: red;
+        }
+        #signUpButton{
             background-color: red;
             color: white;
-    
+        }
+        .loginButton{
+            border: 5px;
+            padding-top: 0.3cm;
+            padding-bottom: 0.3cm;
+            padding-left: 1.3cm;
+            padding-right: 1.3cm;
+            font-size: 20px;
+        }
+        .intro a{
+            text-decoration: none;
         }
     </style>
 </head>
@@ -114,9 +145,9 @@
     <header>
         <div class="navBar">
             <a id="logoInNavBar"  href="#main page" ><img id="logo" src="/Users/sadeghofoghi/Desktop/peranix site design by me/peranix logo.png" alt="peranix icon"> </a>
-            <!-- <a style=" color: white; float: right; margin-top: 25px; margin-right: 40px; background-color: red;"   href="#register or sign in form" >  ورود یا  ثبت نام </a> -->
+            <a id="signInButtonInNavBar" href="#register or sign in form" >  ورود یا  ثبت نام </a>
             <ul>  
-                <li> <a id="signInButtonInNavBar" href="#register or sign in form" >  ورود یا  ثبت نام </a></li>
+                <!-- <li> <a id="signInButtonInNavBar" href="#register or sign in form" >  ورود یا  ثبت نام </a></li> -->
                 <li> <a style="color: red;" class="navBarLinks" href="#main page">  صفحه اصلی </a></li>
                 <li> <a class="navBarLinks" href="#internet speed test">  تست سرعت اینترنت </a></li>
                 <li> <a class="navBarLinks" href="#common questions"> سوالات متداول</a></li>
@@ -125,21 +156,22 @@
             </ul>
         </div>
     </header>
-    <div >
-        <span class="intro">
+    <div class="intro">
+        <span >
             <h1> رو ابرا بازی کن</h1>
             <p>  هر جایی و با هر دستگاهی  <br> که بتونی باهاش به اینترنت وصل شی <br> بازی های روز دنیا رو با دوستات بازی کن </p>    
-            <a class="loginButton" href="sign up"> ثبت نام</a>
-            <a style="background-color: white;" class="loginButton" href="login"> ورود</a>        
+            <a class="loginButton" id="signUpButton" href="sign up"> ثبت نام</a>
+            <a class="loginButton" id="loginButton" href="login"> ورود</a>  
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>      
         </span>
+    </div>
     <div>
         <span>  
-            <h2>   بازی کنی ؟ PES 21 الان دوست داری با همین مرورگرت  <hr></h2>
+            <h2>   kبازی کنی ؟ PES 21 الان دوست داری با همین مرورگرت  <hr></h2>
 
         </span>
         <img class="pes21photo" src="/Users/sadeghofoghi/Desktop/peranix site design by me/pes 21 background.jpeg" alt="pes 21 photo">
     </div>
-
 
 
 </body>
